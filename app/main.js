@@ -1,7 +1,8 @@
-import { ValuesController } from "./Controllers/ValuesController.js";
+import { SwapiController } from "./Controllers/SwapiController.js";
 
 class App {
-  valuesController = new ValuesController();
+
+  swapiController = new SwapiController()
 }
 
 window["app"] = new App();
